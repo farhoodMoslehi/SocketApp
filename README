@@ -1,0 +1,7 @@
+This socket application was originally designed for a uDeploy application.
+But it can be altered to work with any process on a linux environments.
+The basic premise of the application is that once a process goes down on one 
+server, a message is sent to a standby server which brings a similar process up.
+There is also a light weight web service which monitors which server is in the
+Active mode.
+Please refer to the documentation for detailed discussion.
